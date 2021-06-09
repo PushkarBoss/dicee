@@ -18,9 +18,9 @@ document.querySelector(".dice .img2").setAttribute("src",image2);
 if (diceRoll1 == diceRoll2) {
   document.querySelector("h1").innerHTML = "It's a Draw!";
 } else if (diceRoll1 > diceRoll2){
-  document.querySelector("h1").innerHTML = player1 + " wins!👑";
+  document.querySelector("h1").innerHTML = player1 + " wins!";
 } else {
-    document.querySelector("h1").innerHTML = "👑" + player2 + " wins!";
+    document.querySelector("h1").innerHTML = player2 + " wins!";
 }
 
 if (diceRoll1 > diceRoll2) {
